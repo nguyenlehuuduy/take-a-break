@@ -110,7 +110,7 @@ export default function Home() {
                 <div className="timer_detail">
                   <p onClick={pause}>Đừng di chuyển con trỏ của bạn. Chỉ cần ngồi lại, thư giãn và thở thôi.</p>
 
-                  {(mouseMoved || !tabHasFocus) && <p className="oops">Oops! Try Again</p>}
+                  {(mouseMoved || !tabHasFocus) && <p className="oops">Ôi không! Thử lại</p>}
                 </div>
               </div>
             ) : (
